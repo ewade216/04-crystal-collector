@@ -1,0 +1,96 @@
+body {
+  background: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-family: 'Montserrat', sans-serif;
+}
+
+.title-box {
+  width: 460px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #400072;
+  background-color: #A96FD7;
+  border-radius: 20px;
+  border: solid;
+
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  line-height: 40px;
+}
+
+.instructions {
+  display: flex;
+  flex-direction: column;
+}
+
+.inst-box {
+  background-color: #00AC9A;
+  width: 460px;
+  padding: 10px;
+  border-radius: 20px;
+  border: solid;
+  margin-bottom: 10px;
+
+  font-size: 22px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: #400072;
+}
+
+.scores {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.target-score, #target-score, .your-score, #your-score {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 30px;
+  padding: 5px;
+  margin: 10px;
+  background-color: #7F8CDE;
+  border-radius: 20px;
+  border: solid;
+
+  text-align: center;
+  font-size: 24px;
+  color: #400072;
+}
+
+.crystalz {
+  margin-bottom: 20px;
+}
+
+.crystal-img {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  background-color: #222;
+  border: solid;
+  border-color: #00AC9A;
+  border-radius: 20px;
+}
+
+img {
+  margin: 15px;
+  width: 80px;
+  height: 80px;
+}
+
+.w-l {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  height: 100px;
+  margin-bottom: 10px;
+  background-color: #A96FD7;
+  color: #400072;
+  border: solid;
+  border-radius: 20px;
+}

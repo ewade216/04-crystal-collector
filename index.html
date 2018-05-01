@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="UTF-8">
+		<title>Crystal Collector</title>
+		<link rel="stylesheet" href="assets/css/style.css">
+		<link <link <link href="https://fonts.googleapis.com/css?family=Montserrat|Press+Start+2P" rel="stylesheet">
+	</head>
+
+	<body>
+		<div class="game">
+			<div class="title-box">
+				<div class="title">
+					<h1 class="text-center"><strong>Crystal Collector</strong></h1>
+				</div>
+			</div>
+
+			<div class="instructions">
+				<div class="inst-box">
+					<p><small>You are given a random number at the start of the game. There are four crystals below. By clicking a crystal you will add a specific amount of points to your total score. Win the game by matching your total score to random number. You lose the game if your total score goes above the random number. The value of each crystal is hidden from you until you click on it. Each time when the game starts, the game will change the values of each crystal.</small></p>
+				</div>
+			</div>
+
+			<div class="scores">
+				<div class="score-area">
+					<h3 class="target-score">Target Score</h3>
+					<h3 class="text-center" id="target-score"></h3>
+				</div>
+
+				<div class="score-area">
+					<h3 class="your-score">Your Score</h3>
+					<h3 class="text-center" id="your-score"></h3>
+				</div>
+			</div>
+
+				<!-- Crystals -->
+				<div class="crystalz">
+					<div class="crystal-img">
+						<img src="assets/img/blue-crystal.jpg" alt="" id="blue">
+						<img src="assets/img/green-crystal.jpg" alt="" id="green">
+						<img src="assets/img/red-crystal.jpg" alt="" id="red">
+						<img src="assets/img/yellow-crystal.jpg" alt="" id="yellow">
+					</div>
+				</div>
+
+			<div class="w-l">
+				<div class="panel panel-primary">
+					<div class="win-count">
+						<h3 class="panel-title text-center">Win Count</h3>
+					</div>
+					<div class="panel-body">
+						<h3 class="text-center" id="win-count">0</h3>
+					</div>
+				</div>
+
+				<div class="col-lg-6">
+
+					<div class="panel panel-primary">
+						<div class="loss-count">
+							<h3 class="panel-title text-center">Loss Count</h3>
+						</div>
+						<div class="panel-body">
+							<h3 class="text-center" id="loss-count">0</h3>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+		<script src="assets/javascript/game.js"></script>
+	</body>
+</html>
